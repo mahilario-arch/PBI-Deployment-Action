@@ -7,7 +7,7 @@ on:
     
 jobs:
   call-workflow-passing-data:
-       uses: archinsurance/aeis-er-pbi-reports/.github/workflows/ci.yml@main
+       uses: mahilario-arch/PBI-Deployment-Action/.github/workflows/ci.yml@main
    
        secrets:
         clientid: ${{ secrets.CLIENTID }}
