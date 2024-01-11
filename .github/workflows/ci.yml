@@ -4,15 +4,15 @@ on:
     inputs:
       path:
         required: false
-        default: './Reports/BI (Pre Production - Test)'
+        default: './Reports/${{ vars.TARGET_WORKSPACE_NAME }}'
         type: string
       filePattern:
         required: false
-        default: './Reports/BI (Pre Production - Test)/*.pbix'
+        default: './Reports/${{ vars.TARGET_WORKSPACE_NAME }}/*.pbix'
         type: string
       workspacename:
         required: false
-        default: 'BI (Pre Production - Test)'
+        default: '${{ vars.TARGET_WORKSPACE_NAME }}'
         type: string
 ## commenting out below section as applicable for multi workspace publish##
     #  path1:
