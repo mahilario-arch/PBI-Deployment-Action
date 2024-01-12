@@ -46,7 +46,7 @@ jobs:
         shell: powershell
         run: |
           Get-ChildItem ${{ inputs.filePattern }}
-          ./GitHub/run-task.ps1 -ClientId ${{ secrets.clientid }} -Secret ${{ secrets.secret }} -TenantId ${{ secrets.tenantid }} -FilePattern ${{ inputs.filePattern}} -WorkspaceName ${{ inputs.workspacename }} -Action 'Publish' -Create $false -Overwrite $true
+          ./GitHub/run-task.ps1 -ClientId 21a1f2d2-3e39-4801-b5b9-ea20a6d44d64 -Secret SO38Q~evx2In.dquEV.ALZ6DdPfeFykO.u6~-bnZ -TenantId 441d4a8f-7999-4d6a-9670-672cf8d03e35 -FilePattern ${{ inputs.filePattern}} -WorkspaceName ${{ inputs.workspacename }} -Action 'Publish' -Create $false -Overwrite $true
 # commenting out below section as applicable for multi workspace publish ###
      # - name: Call the PS script and publish PBI contents for LM
       #  shell: powershell
