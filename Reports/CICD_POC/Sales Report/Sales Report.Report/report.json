@@ -331,7 +331,7 @@
           "z": 29000.00
         },
         {
-          "config": "{\"name\":\"8fa4bf818a2afb21ec44\",\"layouts\":[{\"id\":0,\"position\":{\"x\":67.6510067114094,\"y\":18.120805369127517,\"z\":31001,\"width\":141.34228187919464,\"height\":39.86577181208054,\"tabOrder\":31001}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"test\"}]}]}}]}}}",
+          "config": "{\"name\":\"8fa4bf818a2afb21ec44\",\"layouts\":[{\"id\":0,\"position\":{\"x\":67.6510067114094,\"y\":18.120805369127517,\"z\":31001,\"width\":141.34228187919464,\"height\":39.86577181208054,\"tabOrder\":31001}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"testing\"}]}]}}]}}}",
           "filters": "[]",
           "height": 39.87,
           "width": 141.34,
