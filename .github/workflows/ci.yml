@@ -26,13 +26,14 @@ on:
 jobs:
   install-dependencies:
     name: Install dependencies
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
       - name: Install from PSGallery
-        shell: pwsh
+        shell: powershell
         run: |
           ./GitHub/install.ps
+
   build:
     runs-on: windows-latest
     steps:
