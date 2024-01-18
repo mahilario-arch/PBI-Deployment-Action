@@ -83,6 +83,7 @@ else {
     Write-Host "Logging in with a Service Principal"
     $tokenResult = Get-ADALToken -Resource $ResourceUrl -ClientId $ClientId -ClientSecret $ClientSecret -TenantId $TenantId
     $token = $tokenResult.AccessToken
+    Write-Host "Test"
 }
 
 if ($Action -eq "Workspace") {
